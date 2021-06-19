@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(233, 47%, 7%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stat-heading {
+  color: white;
+}
+.one {
+  font-family: "Inter", sans-serif;
+  font-size: 35px;
+  line-height: 1.2;
+}
+.secondary-text {
+  color: hsla(0, 0%, 100%, 0.75);
+  letter-spacing: 0.5px;
+  line-height: 1.8;
+}
+.stat-p {
+  color: hsla(0, 0%, 100%, 0.6);
+  letter-spacing: 2px;
+  font-size: 10px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 65em;
+  height: 28.1em;
+  background-color: hsl(244, 38%, 16%);
+  border-radius: 10px;
+  position: absolute;
+  top: 300px;
+}
+.container-text {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin: 3em;
+  padding: 1em;
+}
+.secondary-text {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+}
+.two {
+  font-family: "Inter", sans-serif;
+  font-size: 21.5px;
+}
+.comp {
+  grid-area: stat1;
+}
+.tem {
+  grid-area: stat2;
+}
+.que {
+  grid-area: stat3;
+}
+.stat-p {
+  font-family: "Inter", sans-serif;
+  text-transform: uppercase;
+}
+.p1 {
+  grid-area: ps1;
+}
+.ps2 {
+  grid-area: ps2;
+}
+.ps3 {
+  grid-area: ps3;
+}
+.stat-sect {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    "stat1 stat2 stat3"
+    "ps1 ps2 ps3";
+  margin: 3.5em 0;
+}
+.heading-sect {
+  margin-top: 5em;
+}
+.p-sect {
+  margin-top: 2em;
+}
+.span-text {
+  color: hsl(277, 64%, 61%);
+}
+.attribution {
+  display: none;
+}
+.project-img {
+  border-radius: 0 10px 10px 0;
+  height: 100%;
+  filter: invert(33%) sepia(60%) saturate(350%) hue-rotate(229deg)
+    brightness(63%) contrast(160%);
+}
+.container-img {
+  height: 100%;
+  position: relative;
+}
+.empty-img {
+  height: 100%;
+  width: 100%;
+  background-color: #9851c1;
+  position: absolute;
+  display: block;
+  content: "";
+  opacity: 60%;
+  border-radius: 0 10px 10px 0;
+}
