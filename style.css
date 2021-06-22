@@ -11,6 +11,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
+  min-height: 500px;
 }
 
 .stat-heading {
@@ -97,7 +99,7 @@ body {
 }
 .attribution {
   position: relative;
-  top: 45em;
+  top: 15em;
   font-size: 1.2rem;
   color: rgb(207, 207, 207);
 }
