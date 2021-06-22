@@ -96,7 +96,13 @@ body {
   color: hsl(277, 64%, 61%);
 }
 .attribution {
-  display: none;
+  position: relative;
+  top: 45em;
+  font-size: 1.2rem;
+  color: rgb(207, 207, 207);
+}
+.attribution a {
+  text-decoration: none;
 }
 .project-img {
   border-radius: 0 10px 10px 0;
