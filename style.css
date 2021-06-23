@@ -215,6 +215,6 @@ body {
     padding: 10px;
   }
   .attribution {
-    top: 120vh;
+    bottom: 0;
   }
 }
