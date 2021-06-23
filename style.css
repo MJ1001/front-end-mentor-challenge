@@ -127,7 +127,7 @@ body {
   border-radius: 0 10px 10px 0;
 } */
 
-@media (max-width: 320px) {
+@media (max-width: 500px) {
   body {
     height: initial;
     width: 580px;
