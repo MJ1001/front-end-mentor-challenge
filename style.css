@@ -130,7 +130,7 @@ body {
 @media (max-width: 500px) {
   body {
     height: initial;
-    width: 580px;
+    width: 500px;
   }
   .container {
     display: grid;
@@ -139,6 +139,7 @@ body {
       "img"
       "text";
     margin-top: 10px;
+    width: 500px;
   }
   .container-img {
     grid-area: img;
@@ -210,5 +211,8 @@ body {
   .stat-p {
     font-size: 1.5rem;
     padding: 10px;
+  }
+  .attribution {
+    top: 120vh;
   }
 }
