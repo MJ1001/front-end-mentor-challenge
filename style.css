@@ -139,23 +139,27 @@ body {
       "img"
       "text";
     margin-top: 10px;
-    width: 500px;
+    width: 450px;
     position: relative;
     top: 0;
+    height: 100em;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
   }
   .container-img {
     grid-area: img;
-    height: initial;
-    margin: 0;
   }
   .project-img {
-    height: 50%;
-    width: 610px;
+    width: 450px;
+    position: relative;
+    left: 2.4em;
+    border-radius: 10px 10px 0 0;
   }
   .container-text {
     grid-area: text;
-    width: 500px;
-    padding-left: 6em;
+    width: 430px;
+    padding: 0 3em;
     height: 75em;
   }
   .heading-sect {
