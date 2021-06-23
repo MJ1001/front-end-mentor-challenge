@@ -153,8 +153,8 @@ body {
   .container-text {
     grid-area: text;
     width: 500px;
-    padding-right: 3em;
-    height: 70em;
+    padding-left: 6em;
+    height: 75em;
   }
   .heading-sect {
     height: 15px;
@@ -164,9 +164,11 @@ body {
   }
   .one {
     font-size: 3rem;
+    text-align: center;
   }
   .secondary-text {
     font-size: 1.8rem;
+    text-align: center;
   }
   .stat-sect {
     display: grid;
